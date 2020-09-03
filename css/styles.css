@@ -438,6 +438,10 @@ footer {
     margin-right: 8px;
 }
 
+.filter-list-item {
+    padding: auto;
+}
+
 .filter-list-link {
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -514,3 +518,20 @@ footer {
 .examples-list-item:nth-child(3n) {
     margin-right: 0px;
    } */
+
+   .examples-list {
+       display: flex;
+       flex-wrap: wrap;
+   }
+
+   .examples-list-item {
+       width: 370px;
+   }
+
+   .examples-list-item:not(:nth-child(3n)) {
+    margin-right: 30px;
+  }
+
+   .examples-list-item:not(:nth-last-child(-n+3)) {
+    margin-bottom: 30px;
+  }
