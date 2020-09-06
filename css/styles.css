@@ -175,6 +175,9 @@ a:visited {
     box-sizing: border-box;
     left: 0px;
     top: 10px;
+    padding: 50px 0;
+    min-height: 600px;
+    display: flex;
 }
 
 .hero {
@@ -210,7 +213,6 @@ a:visited {
     width: 200px;
     text-align: center;
     border: 1px solid transparent;
-    margin-bottom: 200px;
 }
 
 /* ===== Особенности ===== */
@@ -278,7 +280,10 @@ h2 {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+}
 
+.features-list-item {
+    margin-bottom: 10px;
 }
 
 /* ===== Occupation ===== */
@@ -433,15 +438,12 @@ footer {
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 50px;
+    height: 38px;
+    border-radius: 4px;
 }
-
 
 .filter-list-item:not(:last-child) {
     margin-right: 8px;
-}
-
-.filter-list-item {
-    padding: auto;
 }
 
 .filter-list-link {
@@ -454,6 +456,8 @@ footer {
     letter-spacing: 0.03em;
     color: #212121;
     background: #F5F4FA;
+    padding: 6px 22px;
+    border-radius: 4px;
 }
 
 .filter-list-link:hover,
